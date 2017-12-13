@@ -1,5 +1,0 @@
-LOCAL_SRC_FILES += OmxConfigs.cpp
-
-ifeq ($(TARGET_USES_QCOM_LEGACY_BSP),true)
-    LOCAL_CFLAGS += -DQCOM_BSP_LEGACY
-endif
