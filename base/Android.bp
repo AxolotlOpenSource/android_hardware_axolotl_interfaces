@@ -10,8 +10,7 @@ cc_library_shared {
 }
 
 cc_library_shared {
-    name: "android.hidl.base@1.0_vendor",
-    vendor: true,
+    name: "android.hidl.base@1.0_system",
     shared_libs: [
         "libhidltransport",
     ],
