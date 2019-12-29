@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package vendor.xpe.biometrics.fingerprint.inscreen@1.0;
+package vendor.xperience.biometrics.fingerprint.inscreen@1.0;
 
 import IFingerprintInscreenCallback;
 
