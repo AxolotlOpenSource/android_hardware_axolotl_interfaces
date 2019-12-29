@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package vendor.xpe.camera.motor@1.0;
+package vendor.xperience.camera.motor@1.0;
 
 interface ICameraMotor {
     onConnect(string cameraId);
