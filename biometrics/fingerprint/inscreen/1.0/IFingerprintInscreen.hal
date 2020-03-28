@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package vendor.xperience.biometrics.fingerprint.inscreen@1.0;
+package vendor.axolotl.biometrics.fingerprint.inscreen@1.0;
 
 import IFingerprintInscreenCallback;
 
@@ -75,7 +75,7 @@ interface IFingerprintInscreen {
     getDimAmount(int32_t cur_brightness) generates (int32_t cur_brightness);
     /**
      * Should the framework boost the brightness? In ideal scenario the boosting
-     * should be handled in the lower layers for the best user experience.
+     * should be handled in the lower layers for the best user eaxolotl.
      * If this returns false, then the implementation MUST boost the brightness
      * according to the previous events.
      */

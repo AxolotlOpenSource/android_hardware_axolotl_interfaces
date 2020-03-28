@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package vendor.xperience.power@1.0;
+package vendor.axolotl.power@1.0;
 
-interface IXPeriencePower {
+interface IAxolotlPower {
     /**
      * getFeature() is called to get the current value of a particular
      * feature or capability from the hardware or PowerHAL
@@ -23,5 +23,5 @@ interface IXPeriencePower {
      * @param feature Feature which needs to get
      * @return the state of power states the device supports
      */
-    getFeature(XPerienceFeature feature) generates (int32_t value);
+    getFeature(AxolotlFeature feature) generates (int32_t value);
 };

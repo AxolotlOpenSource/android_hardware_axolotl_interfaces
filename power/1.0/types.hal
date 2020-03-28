@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package vendor.xperience.power@1.0;
+package vendor.axolotl.power@1.0;
 
 /** Power hint identifiers passed to powerHint() */
-enum XPeriencePowerHint : uint32_t {
+enum AxolotlPowerHint : uint32_t {
     /**
      * An operation is happening where it would be ideal for the CPU to
      * be boosted for a specific duration. The data parameter is an
@@ -27,6 +27,6 @@ enum XPeriencePowerHint : uint32_t {
     SET_PROFILE = 0x00000111
 };
 
-enum XPerienceFeature : uint32_t {
+enum AxolotlFeature : uint32_t {
     SUPPORTED_PROFILES = 0x00001000
 };
